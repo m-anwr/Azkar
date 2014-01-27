@@ -80,7 +80,7 @@
 	
 	</style>
 	
-	<div id="masa" data-role="page">
+	<div class="zoom" id="masa" data-role="page">
 		
 		<div data-role="header" data-position="fixed">
 			<h1>اذكار المساء</h1>
@@ -332,7 +332,7 @@
 	</div>
 
 	
-	<div id="saba" data-role="page">
+	<div class="zoom" id="saba" data-role="page">
 		
 		<div data-role="header" data-position="fixed">
 			<h1>اذكار الصباح</h1>
@@ -582,7 +582,14 @@
 		</div>
 		
 	</div>
-	
+	<script src="js/zoom.js"></script>
+		<script>
+			document.querySelector( '.zoom' ).addEventListener( 'click', function( event ) {
+				event.preventDefault();
+				zoom.to({ element: event.target });
+			} );
+		</script>
+
 	
     </body>
 </html>
