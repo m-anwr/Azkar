@@ -1,0 +1,1 @@
+You can find this app out on [Google Play](https://play.google.com/store/apps/details?id=com.tootis.azkar&hl=en "Download")
